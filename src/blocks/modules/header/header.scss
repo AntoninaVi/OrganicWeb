@@ -5,6 +5,7 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 40px;
+    padding-bottom: 46px;
     &-item{
         display: flex;
         justify-content: space-between;
@@ -17,6 +18,7 @@
     transition:0.3s ease;
     &:hover {
     color:orange;
+    letter-spacing:0.075rem;
   }
  }
 }
@@ -24,14 +26,14 @@
     position: relative;
     width: 2.5rem;
     height: 2.5rem;
-    margin-left: 82px;
+    margin-left: 80px;
     &__button{
         width: 2.5rem;
         height: 2.5rem;
         background-color:orange;
         border: none;
         border-radius: 100%;
-        background-image: url(../../../img/cart-black.svg);
+        background-image: url(../../../img/cart-white.svg);
         background-size: 1rem 0.87rem;
         background-repeat: no-repeat;
         background-position: center center;
