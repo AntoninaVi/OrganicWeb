@@ -12,6 +12,7 @@
 body {
     font-family: 'Jost', sans-serif;
     color: $gray;
+    overflow-x: hidden;
 }
 .title{
     font-family: 'Cormorant', serif;
@@ -36,6 +37,8 @@ body {
 .wrapper{
     max-width: 1440px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .section-main{
     background-image: url(../img/bg-1.png);
@@ -43,12 +46,13 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
+    padding-bottom: 100px;
     &__image{
         position: absolute;
     }
     &__tomato{
-        right: -121px;
-        bottom: 15px;
+        right: 200px;
+        bottom: 140px;
     }
     &__cucumber{
         top: 10px;
@@ -60,7 +64,7 @@ body {
     }
     &__beans{
         left: -0px;
-        bottom: 10px;
+        bottom: 175px;
     }
     &__pepper{
         top: 340px;
@@ -131,23 +135,35 @@ letter-spacing: 1px;
      &::before{
          left: 91px;
          top: 22px;
-     }
-&__02{
-    right: 50px;
-    bottom: 20px;
-    &::before{
-        right: 51px;
-        bottom: 25px;
     }
-    &__03{
-        top: 30px;
-        right: 50px;
-        &::before{
-            right: 60px;
-            top: 35px;
-        }
-    }
+  }
+  &__02{
+      right: -7px;
+      top: 193px;
+      &::before{
+          right: 98px;
+          top: 18px;
+      }
+   }
+   &__03{
+       right: 235px;
+       bottom: -49px;
+       &::before{
+           left: 19px;
+           top: -24px;
+       }
+   }
+ }
 }
- }
- }
+.section-stock{
+    background-image: url(../img/bg2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    &__text{
+        font-size: 1.5rem;
+        max-width: 690px;
+        margin-top: 3.75px;
+        line-height: 1.5;
+    }
 }
